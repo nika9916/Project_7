@@ -1,0 +1,556 @@
+@font-face {
+    font-family: 'Rufina', serif;
+    src: url(../fonts/Rufina-Regular.ttf)
+}
+@font-face {
+    font-family: 'Red Rose', sans-serif;
+    src: url(../fonts/RedRose-Medium.ttf)
+}
+@font-face {
+    font-family: 'Red Hat', sans-serif;
+    src: url(../fonts/RedHatDisplay-Medium.ttf)
+}
+
+
+/* header */
+body {
+    background-color: #F5F5F5;
+    max-width: 1232px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    padding-block: 35px;
+    align-items: center;
+    border: 1px solid rgba(0, 0, 0, 1);
+}
+
+.flex-container > div a {
+    font-family: 'Rufina', serif;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 27px;
+    color: rgba(0, 0, 0, 1);
+}
+
+.nav-ul > li a {
+    font-family: 'Red Rose', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    color: rgba(0, 0, 0, 1);
+    }
+
+.nav-ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.input-icons img {
+    position: absolute;
+    margin-top: 11px;
+    margin-left: 11px;
+}
+
+.nav-input {
+    max-width: 336px;
+    width: 100%;
+    padding: 14px 14px 14px 42px;
+}
+
+
+.main-nav-ul > li a:hover {
+    background-color: rgba(234, 234, 234, 1);
+}
+/* main */
+
+.main-nav {
+    margin-top: 40px;
+    padding-inline: 156px;
+}
+
+.main-nav-ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 17px;
+}
+
+.nav-ul > li a:hover {
+    border-bottom: 1px solid black;
+}
+.nav-ul > li a:active {
+    border-bottom: 1px solid black;
+}
+
+.main-nav-ul > li a {
+    font-family: 'Red Hat', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+    color: rgba(0, 0, 0, 1);
+    border: 0.5px solid rgba(234, 234, 234, 1);
+    border-radius: 10px;
+    padding: 6px 24px;
+}
+
+
+/* Main content */
+
+
+
+
+.wrapper1,.wrapper2,.wrapper3,.wrapper4,.wrapper5,.wrapper6,.wrapper7,.wrapper8,.wrapper9,.wrapper10,.wrapper11,.wrapper12{
+    display: grid;
+    grid-template-rows: repeat(5, 50px);
+    grid-template-columns: 260px;
+}
+.static-first-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    font-family: 'Red Hat', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.wrapper1 > div:nth-child(2) {
+    background-color: rgba(205, 240, 234, 1);
+}
+.wrapper1 > div:nth-child(3) {
+    background: rgba(249, 249, 249, 1);
+}
+.wrapper1 > div:nth-child(4) {
+    background: rgba(246, 198, 234, 1)
+}
+.wrapper1 > div:nth-child(5) {
+    background: rgba(250, 244, 183, 1)    
+}
+.static-six-div {
+    background-color: inherit;
+    border: 1px solid rgba(234, 234, 234, 1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 17px 25px;
+    
+}
+.fifth-div {
+    display: flex;
+    justify-content: space-between;
+    gap: 21px;
+    cursor: pointer;
+}
+
+/* other cards */
+
+.wrapper2 > div:nth-child(2) {
+    background-color: rgba(212, 236, 221, 1);
+}
+.wrapper2 > div:nth-child(3) {
+    background: rgba(52, 91, 99, 1);
+}
+.wrapper2 > div:nth-child(4) {
+    background: rgba(21, 45, 53, 1);
+}
+.wrapper2 > div:nth-child(5) {
+    background: rgba(17, 32, 49, 1);    
+}
+
+
+.wrapper3 > div:nth-child(2) {
+    background-color: rgba(249, 243, 223, 1);
+}
+.wrapper3 > div:nth-child(3) {
+    background: rgba(205, 242, 202, 1);
+}
+.wrapper3 > div:nth-child(4) {
+    background: rgba(255, 222, 250, 1);
+}
+.wrapper3 > div:nth-child(5) {
+    background: rgba(255, 200, 152, 1);    
+}
+
+.wrapper4 > div:nth-child(2) {
+    background-color: rgba(51, 48, 228, 1);
+}
+.wrapper4 > div:nth-child(3) {
+    background: rgba(246, 55, 236, 1);
+}
+.wrapper4 > div:nth-child(4) {
+    background: rgba(251, 180, 84, 1);
+}
+.wrapper4 > div:nth-child(5) {
+    background: rgba(250, 234, 72, 1);    
+}
+
+.wrapper5 > div:nth-child(2) {
+    background-color: rgba(217, 215, 241, 1);
+}
+.wrapper5 > div:nth-child(3) {
+    background: rgba(255, 253, 222, 1);
+}
+.wrapper5 > div:nth-child(4) {
+    background: rgba(231, 251, 190, 1);
+}
+.wrapper5 > div:nth-child(5) {
+    background: rgba(255, 203, 203, 1);    
+}
+
+.wrapper6 > div:nth-child(2) {
+    background-color: rgba(153, 0, 0, 1);
+}
+.wrapper6 > div:nth-child(3) {
+    background: rgba(255, 91, 0, 1);
+}
+.wrapper6 > div:nth-child(4) {
+    background: rgba(212, 217, 37, 1);
+}
+.wrapper6 > div:nth-child(5) {
+    background: rgba(255, 238, 99, 1);    
+}
+
+.wrapper7 > div:nth-child(2) {
+    background-color: rgba(185, 22, 70, 1);
+}
+.wrapper7 > div:nth-child(3) {
+    background: rgba(223, 216, 202, 1);
+}
+.wrapper7 > div:nth-child(4) {
+    background: rgba(251, 243, 228, 1);
+}
+.wrapper7 > div:nth-child(5) {
+    background: rgba(16, 86, 82, 1);    
+}
+
+.wrapper8 > div:nth-child(2) {
+    background-color: rgba(205, 240, 234, 1);
+}
+.wrapper8 > div:nth-child(3) {
+    background: rgba(249, 249, 249, 1);
+}
+.wrapper8 > div:nth-child(4) {
+    background: rgba(246, 198, 234, 1);
+}
+.wrapper8 > div:nth-child(5) {
+    background: rgba(250, 244, 183, 1);    
+}
+
+.wrapper9 > div:nth-child(2) {
+    background-color: rgba(255, 204, 29, 1);
+}
+.wrapper9 > div:nth-child(3) {
+    background: rgba(11, 70, 25, 1);
+}
+.wrapper9 > div:nth-child(4) {
+    background: rgba(17, 101, 48, 1);
+}
+.wrapper9 > div:nth-child(5) {
+    background: rgba(232, 232, 204, 1);    
+}
+
+.wrapper10 > div:nth-child(2) {
+    background-color: rgba(0, 255, 171, 1);
+}
+.wrapper10 > div:nth-child(3) {
+    background: rgba(20, 195, 142, 1);
+}
+.wrapper10 > div:nth-child(4) {
+    background: rgba(184, 241, 176, 1);
+}
+.wrapper10 > div:nth-child(5) {
+    background: rgba(227, 252, 191, 1);    
+}
+
+.wrapper11 > div:nth-child(2) {
+    background-color: rgba(73, 255, 0, 1);
+}
+.wrapper11 > div:nth-child(3) {
+    background: rgba(251, 255, 0, 1);
+}
+.wrapper11 > div:nth-child(4) {
+    background: rgba(255, 147, 0, 1);
+}
+.wrapper11 > div:nth-child(5) {
+    background: rgba(255, 0, 0, 1); 
+}
+
+.wrapper12 > div:nth-child(2) {
+    background-color: rgba(6, 40, 61, 1);
+}
+.wrapper12 > div:nth-child(3) {
+    background: rgba(19, 99, 223, 1);
+}
+.wrapper12 > div:nth-child(4) {
+    background: rgba(71, 181, 255, 1);
+}
+.wrapper12 > div:nth-child(5) {
+    background: rgba(223, 246, 255, 1); 
+}
+
+img {
+    cursor: pointer;
+}
+
+.grid-wrapper {
+    display: flex;
+    gap: 64px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-bottom: 119px;
+}
+
+.grid-wrapper > div > div {
+    border-radius: 4px;
+}
+
+.middle-childs:hover {
+    opacity: 0.75;
+}
+
+.middle-childs {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+/* hover and span*/
+
+.middle-childs > span:first-child{
+    display: none;
+    border: 3px 19px 1px 22px;
+    background-color: rgba(217, 217, 217, 0.5);
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 4px;
+}
+
+.middle-childs > span:last-child{
+    display: none;
+    border: 3px 19px 1px 22px;
+    background-color: rgba(217, 217, 217, 0.5);
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 4px;
+}
+
+.middle-childs:hover span {
+    display: block;
+    font-family: 'Red Rose', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+    color: rgba(255, 255, 255, 1);
+    padding: 3px 9px 1px 9px;
+}
+
+/* collection page */
+
+.container {
+    position: relative;
+  }
+  
+  .image:hover {
+     opacity: 0.5;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: 0.5s;
+
+  }
+  
+  .container:hover .overlay {
+    opacity: 1;
+  }
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+    font-family: 'Red Rose', sans-serif;;
+  }
+
+
+.main-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 113px;
+    align-items: center;
+    margin-top: 90px;
+}
+
+.first-wrapper {
+    background-color: inherit;
+    border: 1px solid rgba(234, 234, 234, 1);
+}
+
+.first-wrapper > div span {
+    font-family: 'Red Hat', sans-serif;
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 13px;
+    margin-left: 17px;
+}
+
+.first-wrapper > div:not(first-child){
+    padding-block: 10px;
+}
+
+.first-wrapper > div{
+    display: flex;
+    justify-content: space-between;
+    max-width: 330px;
+}
+
+.container > img{
+    max-width: 1232px;
+    width: 100%;
+    margin-top: 40px;
+}
+
+.circle {
+    height: 58px;
+    width: 58px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+.a1 {
+    background-color: rgba(209, 37, 41, 1);
+}
+
+.a2 {
+    background-color: rgba(57, 68, 48, 1)    ;
+}
+
+.a3 {
+    background-color: rgba(252, 115, 159, 1)    ;
+}
+
+.a4 {
+    background-color: rgba(250, 159, 74, 1)    ;
+}
+
+.a5 {
+    background-color: rgba(161, 53, 131, 1);
+}
+
+.b1 {
+    background-color: rgba(255, 134, 1, 1)    ;
+}
+
+.b2 {
+    background-color: rgba(242, 234, 231, 1)
+    ;
+}
+
+.b3 {
+    background-color: rgba(67, 0, 1, 1)    ;
+}
+
+.b4 {
+    background-color: rgba(21, 16, 15, 1)  ;
+}
+
+.b5 {
+    background-color: rgba(229, 146, 34, 1)
+}
+.c1 {
+    background-color: rgba(127, 115, 181, 1)    ;
+}
+
+.c2 {
+    background-color: rgba(226, 223, 230, 1);
+}
+
+.c3 {
+    background-color: rgba(83, 64, 144, 1);
+}
+
+.c4 {
+    background-color: rgba(14, 68, 167, 1) ;
+}
+
+.c5 {
+    background-color: rgba(5, 4, 8, 1);
+}
+
+
+.d1 {
+    background-color: rgba(246, 246, 248, 1);
+}
+
+.d2 {
+    background-color: rgba(253, 207, 5, 1)
+    ;
+}
+
+.d3 {
+    background-color: rgba(73, 64, 62, 1) ;
+}
+
+.d4 {
+    background-color: rgba(230, 217, 201, 1);
+}
+
+.d5 {
+    background-color: rgba(249, 232, 34, 1)
+}
+.e1 {
+    background-color: rgba(0, 124, 194, 1)   ;
+}
+
+.e2 {
+    background-color: rgba(1, 160, 217, 1)
+}
+
+.e3 {
+    background-color: rgba(222, 158, 0, 1)
+}
+
+.e4 {
+    background-color: rgba(205, 221, 151, 1)
+}
+
+.e5 {
+    background-color: rgba(223, 208, 70, 1)
+}
+.f1 {
+    background-color: rgba(245, 188, 207, 1)   ;
+}
+
+.f2 {
+    background-color: rgba(225, 217, 83, 1);
+}
+
+.f3 {
+    background-color: rgba(208, 146, 49, 1);
+}
+
+.f4 {
+    background-color: rgba(86, 62, 67, 1);
+}
+
+.f5 {
+    background-color: rgba(169, 193, 42, 1);
+}
